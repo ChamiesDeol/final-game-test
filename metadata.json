@@ -1,0 +1,5 @@
+{
+  "name": "信号彼端 Beyond Signals",
+  "description": "A poetic WebGL interactive experience where you connect Braille stars to form constellations, named by AI.",
+  "requestFramePermissions": []
+}
