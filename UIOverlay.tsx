@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useGameStore } from '../store';
-import { nameConstellation, generateEpilogue } from '../services/gemini';
+import { useGameStore } from './store';
+import { nameConstellation, generateEpilogue } from './services/gemini';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Sparkles, X } from 'lucide-react';
 
