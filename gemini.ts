@@ -1,6 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.VITE_GEMINI_API_KEY });
 
 export const nameConstellation = async (words: string[]) => {
   const prompt = `你是一位古老的天文学家。我在这片星海中连接了以下几个词汇：${words.join('、')}。
