@@ -2,8 +2,8 @@ import { useRef, useState, useMemo } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { Html, Line, Stars, Sparkles, OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
-import { WordNode as WordNodeType } from '../types';
-import { useGameStore } from '../store';
+import { WordNode as WordNodeType } from './types';
+import { useGameStore } from './store';
 
 const Node = ({ node }: { node: WordNodeType }) => {
   const ref = useRef<THREE.Group>(null);
