@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { Scene } from './components/Scene';
-import { UIOverlay } from './components/UIOverlay';
+import { Scene } from './Scene';
+import { UIOverlay } from './UIOverlay';
 import { useGameStore } from './store';
 
 export default function App() {
